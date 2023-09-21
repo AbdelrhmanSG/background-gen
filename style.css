@@ -1,0 +1,65 @@
+body {
+	font: 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    top: 15%;
+	background: linear-gradient(90deg, red , yellow);
+}
+
+h1 {
+    font: 600 3.5em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: .5em;
+    width: 100%;
+}
+
+h3 {
+	font: 900 1em 'Raleway', sans-serif;
+    color: rgba(0,0,0,.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+}
+.color1{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance: none;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    border:none;
+    cursor: pointer;
+}
+.color1::-webkit-color-swatch {
+    border-radius: 40%;
+    border: 2px solid black;
+}
+.color1::-moz-color-swatch {
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+
+
+.color2{
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance: none;
+    background-color: transparent;
+    width: 80px;
+    height: 80px;
+    border:none;
+    cursor: pointer;
+}
+.color2::-webkit-color-swatch {
+    border-radius: 40%;
+    border: 2px solid black;
+}
+.color2::-moz-color-swatch {
+    border-radius: 15px;
+    border: 2px solid black;
+}
